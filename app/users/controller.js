@@ -2,7 +2,7 @@ const users = require('./model');
 
 const index = async (req, res, next) => {
     res.send(`<h1>Back-End Web. Dev.</h1>
-    <h3>Gilby E. A. Koloay</h3>
+    <h3>Steffano Immanuel Rondonuwu</h3>
     `);
 }
 

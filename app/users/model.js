@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: [true, "Nama harus diisi"],
+        required: [true, "Nama harus di isi"],
     },
     age: {
         type: Number,
-        required: [true, "Umur harus diisi"],
+        required: [true, "Umur harus di isi"],
     },
     status: {
         type: String,
